@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+<node name="exposure_controller" pkg="exposure_controller" type="auto_exposure.py" respawn="true"/>
+<rosparam command="load" file="$(find exposure_controller)/config/exposure_controller.yaml" />
+</launch>

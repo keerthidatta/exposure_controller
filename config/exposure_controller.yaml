@@ -1,0 +1,14 @@
+#CONFIG FILE
+
+#TOPICS
+LEFT_IMAGE_TOPIC: '/stereo_camera/left/image_raw'
+RIGHT_IMAGE_TOPIC: '/stereo_camera/right/image_raw'
+STEREO_CURRENT_PARAMS_TOPIC: '/pylon_camera_node/currentParams'
+
+#SERVICES
+LEFT_EXPOSURE_SERVICE: 'stereo_camera/left/set_exposure'
+RIGHT_EXPOSURE_SERVICE: 'stereo_camera/right/set_exposure'
+
+#PI CONTROLLER PARAMETERS
+KP: 0.05
+KI: 0.01
